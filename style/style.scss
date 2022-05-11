@@ -1,0 +1,184 @@
+//importing google fonts
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Lora:ital@1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+//declaring variables
+
+$heading-font: 'Montserrat', sans-serif;
+$para-font: 'Hind Madurai', sans-serif;
+$footer-font: 'Lora', serif;
+
+$para-size: 0.875 rem;
+$heading-size: 1.5 rem;
+$font-color:#011638;
+
+$primary: #02C39A;
+
+// reset padding, margin of document
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-y:scroll ;
+}
+
+body{
+    position: relative;
+}
+
+header{
+    nav{
+        .mobile-nav{            
+            width: 100%;
+            height: 9vh;
+            position: absolute;
+            bottom: 0;
+            background-color: #6298F0;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 35px;
+            
+            .mobile-menu{
+                padding-top: 0.3em;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                img{
+                    width: 20px;
+                }
+
+                p{
+                    font-family: $para-font;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+main{
+    position: relative;
+    height: 100vh;
+
+    .mobile-hero-bg{
+       position: absolute;
+       right: 0;
+    }
+
+    .mobile-content{
+        text-align: center;
+        padding-top: 6em;
+        
+        .mobile-h-greet{
+            font-family: $para-font;
+            color: $font-color;
+            font-size: 0.75rem;
+            padding-top: 0.5em;
+            font-weight: 500;
+        }
+        .mobile-h-head{
+            font-family: $para-font;
+            color: $font-color;
+            font-weight: 700;
+        }
+        .mobile-h-para{
+            font-family: $para-font;
+            color: $font-color;
+            font-weight: 500;
+        }
+        .mobile-h-btn{
+            margin-top: 2.5em;
+            padding: 0.8em 1em;
+            background-color: $primary;
+            border: none;
+            color: #fff;
+            font-family: $heading-font;
+            font-weight: 600;
+        }
+
+        .social{
+            margin-top: 2em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            img{
+                width: 35px;
+            }
+        }
+    }
+}
+
+.about-content{
+    height: 60vh;
+
+    .heading{
+        text-align: center;
+        font-family: $heading-font;
+        font-size: 1.5rem;
+        color: $font-color;
+        padding-bottom: 0.3em;
+        background: url('../images/about-underline.png') bottom  no-repeat;
+        // background-size: 162px;
+    }
+    
+    .content{
+        position: relative;
+
+        p{
+            font-family: $para-font;
+            font-size: $para-size;
+            color: $font-color;
+            padding-top: 2.3em;
+            width: 89vw;
+            margin: auto;
+            padding-left: 0.7em;
+        }
+
+        .highlight{
+            position:absolute;
+            top: 10px;
+        }
+    }
+}
+
+.skills{
+    position: relative;
+    .skills-heading{
+        text-align: center;
+        font-family: $heading-font;
+        font-size: 1.5rem;
+        color: $font-color;
+        padding-bottom: 0.2em;
+        background: url('../images/skills-underline.png') bottom  no-repeat;
+        
+        // background-size: 100px;
+    }
+
+    #star{
+        position: absolute;
+        top: 0;
+        right:38%;
+    }
+
+    .my-skills{
+        p{
+            padding-top: 2.3em;
+            font-family: $para-font;
+            font-size: $para-size;
+            color: $font-color;
+            width: 89vw;
+            margin: auto;
+            padding-left: 0.7em;
+        }
+    }
+}
