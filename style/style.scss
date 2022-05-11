@@ -180,5 +180,31 @@ main{
             margin: auto;
             padding-left: 0.7em;
         }
+
+        .list-skill-cards{
+            margin-top: 1em;
+            margin-left: 1em;
+            display: flex;
+            width: 90vw;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .skill-card{
+                border: 2px solid red;
+                flex: 1 0 20%;
+                margin: 10px;
+                height: 10vh;
+                border-radius: 5px;
+                position: relative;
+                
+                img{
+                    // border: 2px solid blue;
+                    width: 38px;
+                    position: absolute;
+                    top: 20%;
+                    left: 24%;
+                }
+            }
+        }
     }
 }
