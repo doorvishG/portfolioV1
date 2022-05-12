@@ -221,9 +221,10 @@ main .mobile-content .social img {
 .skills .my-skills .list-skill-cards .skill-card .img-content {
   position: absolute;
   bottom: 0;
-  right: 0;
+  text-align: center;
   color: #011638;
   font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
   font-weight: 500;
   opacity: 0;
   visibility: hidden;
@@ -238,8 +239,9 @@ main .mobile-content .social img {
 }
 
 .skills .my-skills .list-skill-cards .skill-card:hover .img-content {
-  width: 15vw;
+  width: 100%;
   visibility: visible;
+  padding: 0.5em;
   opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */
