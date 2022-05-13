@@ -150,7 +150,7 @@ main .mobile-content .social img {
 
 .about-content .content .highlight {
   position: absolute;
-  top: 10px;
+  top: 1em;
 }
 
 .skills {
@@ -170,7 +170,7 @@ main .mobile-content .social img {
 .skills #star {
   position: absolute;
   top: 0;
-  right: 38%;
+  right: 12em;
 }
 
 .skills .my-skills p {
@@ -260,8 +260,8 @@ main .mobile-content .social img {
 
 .contact #smiley {
   position: absolute;
-  top: 2%;
-  right: 25%;
+  top: 0.5em;
+  right: 8em;
   width: 31px;
 }
 
@@ -277,51 +277,24 @@ main .mobile-content .social img {
 }
 
 .contact .contact-form {
-  margin-top: 2em;
-  padding-left: 4em;
-}
-
-.contact .contact-form input {
-  padding: 0.5em;
-  border: 2px solid #6298F0;
-}
-
-.contact .contact-form textarea {
-  margin-top: 1em;
-  border: 2px solid #6298F0;
-  position: relative;
-}
-
-.contact .contact-form ::-webkit-input-placeholder {
-  font-family: "Hind Madurai", sans-serif;
-  font-size: 0.875 rem;
-}
-
-.contact .contact-form :-ms-input-placeholder {
-  font-family: "Hind Madurai", sans-serif;
-  font-size: 0.875 rem;
-}
-
-.contact .contact-form ::-ms-input-placeholder {
-  font-family: "Hind Madurai", sans-serif;
-  font-size: 0.875 rem;
-}
-
-.contact .contact-form ::placeholder {
-  font-family: "Hind Madurai", sans-serif;
-  font-size: 0.875 rem;
+  margin-top: 4em;
+  text-align: center;
 }
 
 .contact .contact-form button {
-  position: absolute;
-  bottom: 25%;
-  right: 7%;
   padding: 0.8em 1em;
   background-color: #02C39A;
   border: none;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
+  position: relative;
+}
+
+.contact .contact-form img {
+  position: absolute;
+  top: 7em;
+  left: 5em;
 }
 
 footer {

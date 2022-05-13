@@ -150,7 +150,7 @@ main{
 
         .highlight{
             position:absolute;
-            top: 10px;
+            top: 1em;
         }
     }
 }
@@ -173,7 +173,7 @@ main{
     #star{
         position: absolute;
         top: 0;
-        right:38%;
+        right:12em;
     }
     
     .my-skills{
@@ -259,8 +259,8 @@ main{
 
     #smiley{
         position: absolute;
-        top: 2%;
-        right:25%;
+        top: 0.5em;
+        right:8em;
         width: 31px;
     }
 
@@ -275,36 +275,43 @@ main{
         padding-left: 0.7em;
     }
     .contact-form{
-        margin-top: 2em;
-        padding-left: 4em;
+        margin-top: 4em;
+        text-align: center;
+        // padding-left: 4em;
         // text-align: center;
-    input{
-        padding: 0.5em;
-        border: 2px solid #6298F0;
-    }
+    // input{
+    //     padding: 0.5em;
+    //     border: 2px solid #6298F0;
+    // }
     
-    textarea{
-        margin-top: 1em;
-        border: 2px solid #6298F0;
-        position: relative;
-    }
+    // textarea{
+    //     margin-top: 1em;
+    //     border: 2px solid #6298F0;
+    //     position: relative;
+    // }
 
-    ::placeholder{
-        font-family: $para-font;
-        font-size: $para-size;  
-    } 
+    // ::placeholder{
+    //     font-family: $para-font;
+    //     font-size: $para-size;  
+    // } 
 
-    button{
-        position: absolute;
-        bottom: 25%;
-        right: 7%;
-        padding: 0.8em 1em;
-        background-color: $primary;
-        border: none;
-        color: #fff;
-        font-family: $heading-font;
-        font-weight: 600;
-    }
+        button{
+            // position: absolute;
+            // bottom: 25%;
+            // right: 7%;
+            padding: 0.8em 1em;
+            background-color: $primary;
+            border: none;
+            color: #fff;
+            font-family: $heading-font;
+            font-weight: 600;
+            position: relative;
+        }
+        img{
+            position: absolute;
+            top: 7em;
+            left: 5em;
+        }
     }
     
 }
