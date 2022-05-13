@@ -294,12 +294,13 @@ main .mobile-content .social img {
 .contact .contact-form img {
   position: absolute;
   top: 7em;
-  left: 5em;
+  left: 4em;
 }
 
 footer {
   background-color: #02C39A;
   padding: 1em;
+  height: 12vh;
   text-align: center;
   font-family: "Lora", serif;
   font-size: 0.9rem;
